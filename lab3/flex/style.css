@@ -1,0 +1,39 @@
+div {
+  font-size: 24px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+  height: 89.5%;
+  margin: 100px auto 100px auto;
+}
+
+#header {
+  min-height: 100px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 570px;
+}
+
+#text {
+  width: 35%;
+  background-color: bisque;
+}
+
+#image {
+  width: 65%;
+  background-color: cadetblue;
+}
+
+#footer {
+  min-height: 80px;
+  background-color: darkgoldenrod;
+}

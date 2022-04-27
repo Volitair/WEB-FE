@@ -1,0 +1,40 @@
+div {
+  font-size: 24px;
+}
+
+#container {
+  width: 83%;
+  height: 89.5%;
+  margin: 100px auto 100px auto;
+}
+
+#header {
+  min-height: 100px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+#content {
+  width: 100%;
+  min-height: 570px;
+}
+
+#text {
+  float: left;
+  min-height: 570px;
+  width: 35%;
+  background-color: bisque;
+}
+
+#image {
+  float: right;
+  min-height: 570px;
+  width: 65%;
+  background-color: cadetblue;
+}
+
+#footer {
+  clear: both;
+  min-height: 80px;
+  background-color: darkgoldenrod;
+}
