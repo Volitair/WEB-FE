@@ -1,0 +1,23 @@
+.on-click-id {
+  background-color: rgb(108, 250, 162);
+  color: rgb(255, 94, 0);
+}
+
+.on-click-selector {
+  background-color: rgb(184, 250, 108);
+  color: rgb(0, 4, 255);
+}
+
+.added-img {
+  width: 1024px;
+  height: 576px;
+}
+
+.img-wrapper,
+.src-img {
+  width: 1024px;
+  height: 576px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  overflow: hidden;
+}
