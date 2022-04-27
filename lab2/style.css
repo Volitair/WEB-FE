@@ -1,0 +1,86 @@
+table {
+  font-size: 18px;
+  color: black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 25%;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.firstRow {
+  background-color: #438f8f;
+}
+
+.firstRow:hover {
+  background-color: #f5f543;
+}
+
+.secondRow {
+  background-color: #f5f543;
+}
+
+.secondRow:hover {
+  background-color: #438f8f;
+}
+
+#image1 {
+  width: 366px;
+}
+
+.square {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#topSquare1 {
+  background-color: #b8cce4;
+  transform: translate(50%, 50%) rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+#leftSquare1 {
+  background-color: #ffff00;
+  transform-origin: 100% 0%;
+  transform: translate(50%, 50%) rotate(15deg);
+}
+
+#rightSquare1 {
+  background-color: #cc0066;
+  transform-origin: 0% 0%;
+  transform: translate(calc(150%), -50%) rotate(-15deg);
+}
+
+#image2 {
+  position: relative;
+  width: 366px;
+  height: 366px;
+}
+
+#topSquare2 {
+  position: absolute;
+  left: calc(50% - 60px);
+  bottom: calc(50% + 25px);
+  transform: rotate(45deg);
+  background-color: #b8cce4;
+}
+
+#leftSquare2 {
+  position: absolute;
+  left: calc(50% - 135px);
+  top: calc(50% - 17px);
+  transform: rotate(15deg);
+  background-color: #ffff00;
+}
+
+#rightSquare2 {
+  position: absolute;
+  right: calc(50% - 137px);
+  top: calc(50% - 17px);
+  transform: rotate(-15deg);
+  background-color: #cc0066;
+}
