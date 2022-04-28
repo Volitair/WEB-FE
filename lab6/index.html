@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Синишин В.І. ІП-93 лаб.6 вар.43</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="form-container" class="flex">
+    <div id="form">
+      <form id="form" onsubmit="return false">
+        <fieldset>
+          <legend>Форма для заповнення</legend>
+          <input type="text" id="full-name" name="full-name" placeholder="ПІБ" />
+          <input type="text" id="group" name="group" placeholder="Група" />
+          <input type="text" id="phone" name="phone" placeholder="Номер телефону" />
+          <input type="text" id="faculty" name="faculty" placeholder="Факультет" />
+          <input type="email" id="email" name="email" placeholder="e-mail" />
+        </fieldset>
+        <input type="submit" id="submit-btn" value="Підтвердити" />
+      </form>
+    </div>
+    <div id="input-data-result" class="flex hidden">
+      <div class="result-row"><strong id="result-header">Введені дані</strong></div>
+      <div id="full-name" class="result-row"><strong>ПІБ: </strong></div>
+      <div id="group" class="result-row"><strong>Група: </strong></div>
+      <div id="phone" class="result-row"><strong>Номер телефону: </strong></div>
+      <div id="faculty" class="result-row"><strong>Факультет: </strong></div>
+      <div id="email" class="result-row"><strong>E-mail: </strong></div>
+    </div>
+  </div>
+
+  <div id="table-container">
+    <input type="color" id="color-picker" value="#37c83c" />
+    <table id="table">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td id="cell7">7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
